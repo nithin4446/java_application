@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'worker-aws-dynamic' }
     stages {
         stage('Build') { 
              steps {
