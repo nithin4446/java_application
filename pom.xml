@@ -20,20 +20,11 @@
 </repository>
 		</repositories>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<springframework.version>4.3.1.RELEASE</springframework.version>
-		<jackson.version>2.7.5</jackson.version>
-		
-		
-		
-<!-- Mandatory properties -->
-
-<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-<!-- Organization and project keys are displayed in the right sidebar of the project homepage -->
-<sonar.organization>honeysundar-github</sonar.organization>
-<sonar.login>a75980be14bdcd55f42123e7a74b6c5720ce7651</sonar.login> 
-	</properties>
+	 <properties>
+  <sonar.projectKey>nithin4446_java_application</sonar.projectKey>
+  <sonar.organization>nithin4446</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 
 	<dependencies>
 		<dependency>
