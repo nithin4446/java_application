@@ -19,7 +19,7 @@
   </snapshots>
 </repository>
 		</repositories>
-
+<!-- Demo on GIT webhook -->
 	 <properties>
   <sonar.projectKey>nithin4446_java_application</sonar.projectKey>
   <sonar.organization>nithin4446</sonar.organization>
